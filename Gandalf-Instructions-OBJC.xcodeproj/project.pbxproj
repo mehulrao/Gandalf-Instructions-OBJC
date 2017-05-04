@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FCC73260650CE9C85A5A501 /* libPods-Gandalf-Instructions-OBJC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD1D9554B53F35F2DC1DCDD5 /* libPods-Gandalf-Instructions-OBJC.a */; };
+		784D202B1EB948A4006EF5EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 784D202A1EB948A4006EF5EE /* GoogleService-Info.plist */; };
+		78A8C4D21EB3FAB9008A4346 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A8C4D11EB3FAB9008A4346 /* main.m */; };
+		78A8C4D51EB3FAB9008A4346 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A8C4D41EB3FAB9008A4346 /* AppDelegate.m */; };
+		78A8C4D81EB3FAB9008A4346 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78A8C4D71EB3FAB9008A4346 /* ViewController.m */; };
+		78A8C4DB1EB3FAB9008A4346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A8C4D91EB3FAB9008A4346 /* Main.storyboard */; };
+		78A8C4DD1EB3FAB9008A4346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78A8C4DC1EB3FAB9008A4346 /* Assets.xcassets */; };
+		78A8C4E01EB3FAB9008A4346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78A8C4DE1EB3FAB9008A4346 /* LaunchScreen.storyboard */; };
+		78B382971EB4E75F000D1FCC /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B382961EB4E75F000D1FCC /* SecondViewController.m */; };
+		78DC5EDF1EB945D700909122 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DC5EDE1EB945D700909122 /* GoogleMobileAds.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6862B2C523F2B5D0E6834325 /* Pods-Gandalf-Instructions-OBJC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gandalf-Instructions-OBJC.release.xcconfig"; path = "Pods/Target Support Files/Pods-Gandalf-Instructions-OBJC/Pods-Gandalf-Instructions-OBJC.release.xcconfig"; sourceTree = "<group>"; };
+		784D202A1EB948A4006EF5EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		78A8C4CD1EB3FAB9008A4346 /* Gandalf-Instructions-OBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gandalf-Instructions-OBJC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78A8C4D11EB3FAB9008A4346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78A8C4D31EB3FAB9008A4346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		78A8C4D41EB3FAB9008A4346 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		78A8C4D61EB3FAB9008A4346 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "Gandalf-Instructions-OBJC/ViewController.h"; sourceTree = "<group>"; };
+		78A8C4D71EB3FAB9008A4346 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "Gandalf-Instructions-OBJC/ViewController.m"; sourceTree = "<group>"; };
+		78A8C4DA1EB3FAB9008A4346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		78A8C4DC1EB3FAB9008A4346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		78A8C4DF1EB3FAB9008A4346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		78A8C4E11EB3FAB9008A4346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78B382951EB4E75F000D1FCC /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondViewController.h; path = "Gandalf-Instructions-OBJC/SecondViewController.h"; sourceTree = "<group>"; };
+		78B382961EB4E75F000D1FCC /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondViewController.m; path = "Gandalf-Instructions-OBJC/SecondViewController.m"; sourceTree = "<group>"; };
+		78DC5EDE1EB945D700909122 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		9E54AFC59D7C116BC5DA91D4 /* Pods-Gandalf-Instructions-OBJC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gandalf-Instructions-OBJC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Gandalf-Instructions-OBJC/Pods-Gandalf-Instructions-OBJC.debug.xcconfig"; sourceTree = "<group>"; };
+		FD1D9554B53F35F2DC1DCDD5 /* libPods-Gandalf-Instructions-OBJC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gandalf-Instructions-OBJC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78A8C4CA1EB3FAB9008A4346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78DC5EDF1EB945D700909122 /* GoogleMobileAds.framework in Frameworks */,
+				5FCC73260650CE9C85A5A501 /* libPods-Gandalf-Instructions-OBJC.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B51D6AADBAAEEB821428C8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD1D9554B53F35F2DC1DCDD5 /* libPods-Gandalf-Instructions-OBJC.a */,
+				78DC5EDE1EB945D700909122 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		788817571EB7F21100275D98 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				78A8C4D61EB3FAB9008A4346 /* ViewController.h */,
+				78A8C4D71EB3FAB9008A4346 /* ViewController.m */,
+			);
+			name = "Main View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		788817581EB7F22300275D98 /* Second View */ = {
+			isa = PBXGroup;
+			children = (
+				78B382951EB4E75F000D1FCC /* SecondViewController.h */,
+				78B382961EB4E75F000D1FCC /* SecondViewController.m */,
+			);
+			name = "Second View";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		78A8C4C41EB3FAB9008A4346 = {
+			isa = PBXGroup;
+			children = (
+				78A8C4CF1EB3FAB9008A4346 /* Gandalf-Instructions-OBJC */,
+				78A8C4CE1EB3FAB9008A4346 /* Products */,
+				D0BB99A5E096DF60DF022D51 /* Pods */,
+				6B51D6AADBAAEEB821428C8D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		78A8C4CE1EB3FAB9008A4346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78A8C4CD1EB3FAB9008A4346 /* Gandalf-Instructions-OBJC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78A8C4CF1EB3FAB9008A4346 /* Gandalf-Instructions-OBJC */ = {
+			isa = PBXGroup;
+			children = (
+				788817581EB7F22300275D98 /* Second View */,
+				788817571EB7F21100275D98 /* Main View */,
+				78A8C4D31EB3FAB9008A4346 /* AppDelegate.h */,
+				78A8C4D41EB3FAB9008A4346 /* AppDelegate.m */,
+				78A8C4D91EB3FAB9008A4346 /* Main.storyboard */,
+				78A8C4DC1EB3FAB9008A4346 /* Assets.xcassets */,
+				78A8C4DE1EB3FAB9008A4346 /* LaunchScreen.storyboard */,
+				78A8C4E11EB3FAB9008A4346 /* Info.plist */,
+				78A8C4D01EB3FAB9008A4346 /* Supporting Files */,
+				784D202A1EB948A4006EF5EE /* GoogleService-Info.plist */,
+			);
+			path = "Gandalf-Instructions-OBJC";
+			sourceTree = "<group>";
+		};
+		78A8C4D01EB3FAB9008A4346 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78A8C4D11EB3FAB9008A4346 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0BB99A5E096DF60DF022D51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E54AFC59D7C116BC5DA91D4 /* Pods-Gandalf-Instructions-OBJC.debug.xcconfig */,
+				6862B2C523F2B5D0E6834325 /* Pods-Gandalf-Instructions-OBJC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78A8C4CC1EB3FAB9008A4346 /* Gandalf-Instructions-OBJC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78A8C4E41EB3FAB9008A4346 /* Build configuration list for PBXNativeTarget "Gandalf-Instructions-OBJC" */;
+			buildPhases = (
+				8C46815835C407AD3DBFD06C /* [CP] Check Pods Manifest.lock */,
+				78A8C4C91EB3FAB9008A4346 /* Sources */,
+				78A8C4CA1EB3FAB9008A4346 /* Frameworks */,
+				78A8C4CB1EB3FAB9008A4346 /* Resources */,
+				7CC053A60DA7FAA0E1E8C397 /* [CP] Embed Pods Frameworks */,
+				F2B13912D86DF87F21C423E3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gandalf-Instructions-OBJC";
+			productName = "Gandalf-Instructions-OBJC";
+			productReference = 78A8C4CD1EB3FAB9008A4346 /* Gandalf-Instructions-OBJC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78A8C4C51EB3FAB9008A4346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mehul Rao";
+				TargetAttributes = {
+					78A8C4CC1EB3FAB9008A4346 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 5RDGE377XW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 78A8C4C81EB3FAB9008A4346 /* Build configuration list for PBXProject "Gandalf-Instructions-OBJC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 78A8C4C41EB3FAB9008A4346;
+			productRefGroup = 78A8C4CE1EB3FAB9008A4346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78A8C4CC1EB3FAB9008A4346 /* Gandalf-Instructions-OBJC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78A8C4CB1EB3FAB9008A4346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78A8C4E01EB3FAB9008A4346 /* LaunchScreen.storyboard in Resources */,
+				784D202B1EB948A4006EF5EE /* GoogleService-Info.plist in Resources */,
+				78A8C4DD1EB3FAB9008A4346 /* Assets.xcassets in Resources */,
+				78A8C4DB1EB3FAB9008A4346 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7CC053A60DA7FAA0E1E8C397 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gandalf-Instructions-OBJC/Pods-Gandalf-Instructions-OBJC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C46815835C407AD3DBFD06C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B13912D86DF87F21C423E3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Gandalf-Instructions-OBJC/Pods-Gandalf-Instructions-OBJC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78A8C4C91EB3FAB9008A4346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78B382971EB4E75F000D1FCC /* SecondViewController.m in Sources */,
+				78A8C4D81EB3FAB9008A4346 /* ViewController.m in Sources */,
+				78A8C4D51EB3FAB9008A4346 /* AppDelegate.m in Sources */,
+				78A8C4D21EB3FAB9008A4346 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78A8C4D91EB3FAB9008A4346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A8C4DA1EB3FAB9008A4346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		78A8C4DE1EB3FAB9008A4346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78A8C4DF1EB3FAB9008A4346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78A8C4E21EB3FAB9008A4346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78A8C4E31EB3FAB9008A4346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		78A8C4E51EB3FAB9008A4346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E54AFC59D7C116BC5DA91D4 /* Pods-Gandalf-Instructions-OBJC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RDGE377XW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Gandalf-Instructions-OBJC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipa.Gandalf-Instructions-OBJC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		78A8C4E61EB3FAB9008A4346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6862B2C523F2B5D0E6834325 /* Pods-Gandalf-Instructions-OBJC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5RDGE377XW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Gandalf-Instructions-OBJC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ipa.Gandalf-Instructions-OBJC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78A8C4C81EB3FAB9008A4346 /* Build configuration list for PBXProject "Gandalf-Instructions-OBJC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A8C4E21EB3FAB9008A4346 /* Debug */,
+				78A8C4E31EB3FAB9008A4346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78A8C4E41EB3FAB9008A4346 /* Build configuration list for PBXNativeTarget "Gandalf-Instructions-OBJC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78A8C4E51EB3FAB9008A4346 /* Debug */,
+				78A8C4E61EB3FAB9008A4346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78A8C4C51EB3FAB9008A4346 /* Project object */;
+}

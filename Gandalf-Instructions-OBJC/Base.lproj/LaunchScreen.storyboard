@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="86p-ws-8eg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Wait" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WZR-jC-jY6">
+                                <rect key="frame" x="143.5" y="282" width="88" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="88" id="xmx-cE-ywf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="1" green="0.2015794846" blue="0.166636545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gandalf is loading..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LxJ-6f-LaU">
+                                <rect key="frame" x="94.5" y="245" width="186" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="e9P-qK-2yT"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="1" green="0.54499101868336508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="86p-ws-8eg" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="9Zk-P3-d8t"/>
+                            <constraint firstItem="WZR-jC-jY6" firstAttribute="centerX" secondItem="86p-ws-8eg" secondAttribute="centerX" id="BPM-R7-47I"/>
+                            <constraint firstItem="LxJ-6f-LaU" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="225" id="JWM-fq-oIb"/>
+                            <constraint firstItem="LxJ-6f-LaU" firstAttribute="centerX" secondItem="86p-ws-8eg" secondAttribute="centerX" id="Maa-Bw-Peo"/>
+                            <constraint firstAttribute="trailing" secondItem="86p-ws-8eg" secondAttribute="trailing" id="bIR-QJ-TlW"/>
+                            <constraint firstItem="86p-ws-8eg" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="eEn-v2-Fg0"/>
+                            <constraint firstItem="86p-ws-8eg" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="hOe-2n-l5h"/>
+                            <constraint firstItem="WZR-jC-jY6" firstAttribute="top" secondItem="LxJ-6f-LaU" secondAttribute="bottom" constant="8" symbolic="YES" id="zn0-TS-Nmt"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="48.75" y="372.88732394366195"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="540" height="960"/>
+    </resources>
+</document>
